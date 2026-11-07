@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Check, CheckCheck, Circle, ListTodo, Plus, Trash2, Sparkles } from 'lucide-react';
 
 const STORAGE_KEY = 'taskflow-tasks-v1';
